@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c7678dec629f451f9986272a53b1f690 {
+                #map_1262eb344e6d457ba0cb53549b417e6a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,21 +38,21 @@
               <h3 align="center" style="font-size:16px"><b>New Development in Edgewater</b></h3>
              
     
-            <div class="folium-map" id="map_c7678dec629f451f9986272a53b1f690" ></div>
+            <div class="folium-map" id="map_1262eb344e6d457ba0cb53549b417e6a" ></div>
         
 </body>
 <script>    
     
-            var map_c7678dec629f451f9986272a53b1f690 = L.map(
-                "map_c7678dec629f451f9986272a53b1f690",
+            var map_1262eb344e6d457ba0cb53549b417e6a = L.map(
+                "map_1262eb344e6d457ba0cb53549b417e6a",
                 {
-                    center: [25.801942, -80.18911696086957],
+                    center: [25.801525842857142, -80.18883709523809],
                     crs: L.CRS.EPSG3857,
-                    maxBounds: [[25.82, -80.21], [25.79, -80.17]],
+                    maxBounds: [[25.83, -80.21], [25.79, -80.17]],
                     zoom: 15,
                     zoomControl: true,
                     preferCanvas: false,
-                    scrollWheelZoom: false,
+                    scrollWheelZoom: true,
                 }
             );
 
@@ -60,470 +60,432 @@
 
         
     
-            var tile_layer_026a842d226a470284e16826e9ca132d = L.tileLayer(
+            var tile_layer_b179caf0aa7a47d28a66a5bb5431c3cd = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 14.5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
 
-        function geo_json_8cfb95d20c484b88b7f52fadf803dfe0_onEachFeature(feature, layer) {
+        function geo_json_0c658c043f424fb0b5c7c84acad62a73_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_8cfb95d20c484b88b7f52fadf803dfe0 = L.geoJson(null, {
-                onEachFeature: geo_json_8cfb95d20c484b88b7f52fadf803dfe0_onEachFeature,
+        var geo_json_0c658c043f424fb0b5c7c84acad62a73 = L.geoJson(null, {
+                onEachFeature: geo_json_0c658c043f424fb0b5c7c84acad62a73_onEachFeature,
             
         });
 
-        function geo_json_8cfb95d20c484b88b7f52fadf803dfe0_add (data) {
-            geo_json_8cfb95d20c484b88b7f52fadf803dfe0
+        function geo_json_0c658c043f424fb0b5c7c84acad62a73_add (data) {
+            geo_json_0c658c043f424fb0b5c7c84acad62a73
                 .addData(data)
-                .addTo(map_c7678dec629f451f9986272a53b1f690);
+                .addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         }
-            geo_json_8cfb95d20c484b88b7f52fadf803dfe0_add({"bbox": [-80.19481344940795, 25.79192720370811, -80.18532012795487, 25.81231170232534], "features": [{"bbox": [-80.19481344940795, 25.79192720370811, -80.18532012795487, 25.81231170232534], "geometry": {"coordinates": [[[-80.18540704116194, 25.79246575687215, 0.0], [-80.18533085467135, 25.79370498841399, 0.0], [-80.18532012795487, 25.79423182742523, 0.0], [-80.18540474559936, 25.79477698519703, 0.0], [-80.1855274507024, 25.7956398816533, 0.0], [-80.18570722068347, 25.79580945053246, 0.0], [-80.1859220756825, 25.79583502386934, 0.0], [-80.18647688694091, 25.79575592875054, 0.0], [-80.18703409867942, 25.79601007746086, 0.0], [-80.18696932862119, 25.79724914468379, 0.0], [-80.18537392087241, 25.79728158100544, 0.0], [-80.18535924461703, 25.80330475505367, 0.0], [-80.18683315475103, 25.80328264165733, 0.0], [-80.18681221264954, 25.80394235350387, 0.0], [-80.18539256493403, 25.80398144625904, 0.0], [-80.18538978259645, 25.81214177868447, 0.0], [-80.1859295172967, 25.81231170232534, 0.0], [-80.18594921880404, 25.81139497480059, 0.0], [-80.19086091395054, 25.81129169644329, 0.0], [-80.19481344940795, 25.79442005686808, 0.0], [-80.19471880013177, 25.79246618178029, 0.0], [-80.19075280733576, 25.79249053729029, 0.0], [-80.18781344388915, 25.7924405654419, 0.0], [-80.18710652982465, 25.79192720370811, 0.0], [-80.18542724492453, 25.79193120197811, 0.0], [-80.18540704116194, 25.79246575687215, 0.0]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_0c658c043f424fb0b5c7c84acad62a73_add({"bbox": [-80.19481344940795, 25.79192720370811, -80.18532012795487, 25.81231170232534], "features": [{"bbox": [-80.19481344940795, 25.79192720370811, -80.18532012795487, 25.81231170232534], "geometry": {"coordinates": [[[-80.18540704116194, 25.79246575687215, 0.0], [-80.18533085467135, 25.79370498841399, 0.0], [-80.18532012795487, 25.79423182742523, 0.0], [-80.18540474559936, 25.79477698519703, 0.0], [-80.1855274507024, 25.7956398816533, 0.0], [-80.18570722068347, 25.79580945053246, 0.0], [-80.1859220756825, 25.79583502386934, 0.0], [-80.18647688694091, 25.79575592875054, 0.0], [-80.18703409867942, 25.79601007746086, 0.0], [-80.18696932862119, 25.79724914468379, 0.0], [-80.18537392087241, 25.79728158100544, 0.0], [-80.18535924461703, 25.80330475505367, 0.0], [-80.18683315475103, 25.80328264165733, 0.0], [-80.18681221264954, 25.80394235350387, 0.0], [-80.18539256493403, 25.80398144625904, 0.0], [-80.18538978259645, 25.81214177868447, 0.0], [-80.1859295172967, 25.81231170232534, 0.0], [-80.18594921880404, 25.81139497480059, 0.0], [-80.19086091395054, 25.81129169644329, 0.0], [-80.19481344940795, 25.79442005686808, 0.0], [-80.19471880013177, 25.79246618178029, 0.0], [-80.19075280733576, 25.79249053729029, 0.0], [-80.18781344388915, 25.7924405654419, 0.0], [-80.18710652982465, 25.79192720370811, 0.0], [-80.18542724492453, 25.79193120197811, 0.0], [-80.18540704116194, 25.79246575687215, 0.0]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            var marker_ee54c2555a5f47d2a999acec4118f6be = L.marker(
+            var marker_ebf19fec371f4cf99069ba34126061d1 = L.marker(
                 [25.7975549, -80.18641679999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_34b1b5bb07bd45dfab147956ae93af18 = L.popup({"maxWidth": "100%"});
+        var popup_260e460b8e0648568b0e742ce455265d = L.popup({"maxWidth": "100%"});
 
         
-            var html_a7ddafe653574096a236486bf1940dfd = $(`<div id="html_a7ddafe653574096a236486bf1940dfd" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TwoRoadsDevelopment.jpg" width="256" height="156"><br>     Address: <strong>2121 North Bayshore Drive</strong><br>     Developer(s): <strong><em>Two Roads Development</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/05/24/two-roads-closes-on-150m-bulk-condo-purchase-in-edgewater-plans-three-towers/">A multi-tower, 191-unit luxury condo</a> project proposed by Two Roads Development. The developer paid $150 million for the site and received $150 million in financing.</strong></html>     </div>`)[0];
-            popup_34b1b5bb07bd45dfab147956ae93af18.setContent(html_a7ddafe653574096a236486bf1940dfd);
+            var html_4a51405cbe2e422dbef83ec900986b17 = $(`<div id="html_4a51405cbe2e422dbef83ec900986b17" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TwoRoadsDevelopment.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2121 North Bayshore Drive</strong><br>     Developer(s): <strong><em>Two Roads Development</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/05/24/two-roads-closes-on-150m-bulk-condo-purchase-in-edgewater-plans-three-towers/">A multi-tower, 191-unit luxury condo</a> project proposed by Two Roads Development. The developer paid $150 million for the site and received $150 million in financing.</strong></html>     </div>`)[0];
+            popup_260e460b8e0648568b0e742ce455265d.setContent(html_4a51405cbe2e422dbef83ec900986b17);
         
 
-        marker_ee54c2555a5f47d2a999acec4118f6be.bindPopup(popup_34b1b5bb07bd45dfab147956ae93af18)
+        marker_ebf19fec371f4cf99069ba34126061d1.bindPopup(popup_260e460b8e0648568b0e742ce455265d)
         ;
 
         
     
     
-            var marker_b70be161a04642cca25027926d626f4a = L.marker(
+            var marker_1775c95b36f743fb8e1a220aea890c3c = L.marker(
                 [25.8030008, -80.1876217],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_002df85a18264c51919e9e608178718f = L.popup({"maxWidth": "100%"});
+        var popup_1b739150cc2e43a6ab4cf11d3255d667 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7ad597ace6204c94befe1f55ca6edfe3 = $(`<div id="html_7ad597ace6204c94befe1f55ca6edfe3" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="GroupeCity.jpg" width="256" height="156"><br>     Address: <strong>423 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Groupe City</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/05/05/vive-la-miami-french-developer-acquires-edgewater-site-for-15m-for-first-u-s-project/">Groupe City proposed</a> a residential tower. The developer has yet to announce if the building will contain condos or apartments, but did say it would have a French touch.</strong></html>     </div>`)[0];
-            popup_002df85a18264c51919e9e608178718f.setContent(html_7ad597ace6204c94befe1f55ca6edfe3);
+            var html_3ecbf8d662f54722a73b98084b3de3a9 = $(`<div id="html_3ecbf8d662f54722a73b98084b3de3a9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="GroupeCity.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>423 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Groupe City</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/05/05/vive-la-miami-french-developer-acquires-edgewater-site-for-15m-for-first-u-s-project/">Groupe City proposed</a> a residential tower. The developer has yet to announce if the building will contain condos or apartments, but did say it would have a French touch.</strong></html>     </div>`)[0];
+            popup_1b739150cc2e43a6ab4cf11d3255d667.setContent(html_3ecbf8d662f54722a73b98084b3de3a9);
         
 
-        marker_b70be161a04642cca25027926d626f4a.bindPopup(popup_002df85a18264c51919e9e608178718f)
+        marker_1775c95b36f743fb8e1a220aea890c3c.bindPopup(popup_1b739150cc2e43a6ab4cf11d3255d667)
         ;
 
         
     
     
-            var marker_2d613f1368d543809477cb32012d24ba = L.marker(
+            var marker_142032b3d7f1491d94ea68437a5697ad = L.marker(
                 [25.806282, -80.187991],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_22182d8df636481cbc11ce5c8f53677b = L.popup({"maxWidth": "100%"});
+        var popup_9487cffb2d4449a2ac52eaf6813723a2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_af72efa7ecf54c15b456dceeee2a14e5 = $(`<div id="html_af72efa7ecf54c15b456dceeee2a14e5" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="GrupoDianaKorner.jpg" width="256" height="156"><br>     Address: <strong>430 Northeast 31st Street</strong><br>     Developer(s): <strong><em>Grupo Diana, Korner</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/04/21/colombian-developers-score-55m-construction-loan-for-edgewater-apartment-project/">Two Bogotá-based developers</a>, Grupo Diana and Korner, are building the 32-story Metro Edgewater with 279 units. They scored a $55 million construction loan from Madison Realty Capital.</strong></html>     </div>`)[0];
-            popup_22182d8df636481cbc11ce5c8f53677b.setContent(html_af72efa7ecf54c15b456dceeee2a14e5);
+            var html_e5b6f954445542329d280be31cfcf5a4 = $(`<div id="html_e5b6f954445542329d280be31cfcf5a4" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="GrupoDianaKorner.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>430 Northeast 31st Street</strong><br>     Developer(s): <strong><em>Grupo Diana, Korner</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/04/21/colombian-developers-score-55m-construction-loan-for-edgewater-apartment-project/">Two Bogotá-based developers</a>, Grupo Diana and Korner, are building the 32-story Metro Edgewater with 279 units. They scored a $55 million construction loan from Madison Realty Capital.</strong></html>     </div>`)[0];
+            popup_9487cffb2d4449a2ac52eaf6813723a2.setContent(html_e5b6f954445542329d280be31cfcf5a4);
         
 
-        marker_2d613f1368d543809477cb32012d24ba.bindPopup(popup_22182d8df636481cbc11ce5c8f53677b)
+        marker_142032b3d7f1491d94ea68437a5697ad.bindPopup(popup_9487cffb2d4449a2ac52eaf6813723a2)
         ;
 
         
     
     
-            var marker_51c3d9d906f443d987c3b026805f13db = L.marker(
+            var marker_db1ad78231514e49b2910b52811eda0f = L.marker(
                 [25.8044811, -80.1895984],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_321041f6101c4bcdbacf515afb213326 = L.popup({"maxWidth": "100%"});
+        var popup_49729e65f1bf48b89df913a8bbe49422 = L.popup({"maxWidth": "100%"});
 
         
-            var html_677242da94c449a09d0f780f6e9615ca = $(`<div id="html_677242da94c449a09d0f780f6e9615ca" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="CrescentHeights.jpg" width="256" height="156"><br>     Address: <strong>2900 Biscayne Boulevard in Miami</strong><br>     Developer(s): <strong><em>Crescent Heights</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/04/01/russell-galbuts-crescent-heights-scores-224m-loan-for-whole-foods-anchored-edgewater-project/">Construction began at Nema</a>, the Whole Foods-anchored luxury apartment tower after Crescent Heights secured a $224 million construction loan from Blackstone. The 39-story building will have 588 units. Arquitectonica and Rockwell Group designed the project.</strong></html>     </div>`)[0];
-            popup_321041f6101c4bcdbacf515afb213326.setContent(html_677242da94c449a09d0f780f6e9615ca);
+            var html_5f22a4c6c9494ca69a009cff397991e4 = $(`<div id="html_5f22a4c6c9494ca69a009cff397991e4" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="CrescentHeights.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2900 Biscayne Boulevard in Miami</strong><br>     Developer(s): <strong><em>Crescent Heights</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/04/01/russell-galbuts-crescent-heights-scores-224m-loan-for-whole-foods-anchored-edgewater-project/">Construction began at Nema</a>, the Whole Foods-anchored luxury apartment tower after Crescent Heights secured a $224 million construction loan from Blackstone. The 39-story building will have 588 units. Arquitectonica and Rockwell Group designed the project.</strong></html>     </div>`)[0];
+            popup_49729e65f1bf48b89df913a8bbe49422.setContent(html_5f22a4c6c9494ca69a009cff397991e4);
         
 
-        marker_51c3d9d906f443d987c3b026805f13db.bindPopup(popup_321041f6101c4bcdbacf515afb213326)
+        marker_db1ad78231514e49b2910b52811eda0f.bindPopup(popup_49729e65f1bf48b89df913a8bbe49422)
         ;
 
         
     
     
-            var marker_e74e2ba452fd474c909a356aed24912d = L.marker(
+            var marker_62dd24fdd8bc4411aff9b10a6050f35b = L.marker(
                 [25.7980775, -80.1908806],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_2d69b0cb6ca6434a9dd7e2a01d2e1eec = L.popup({"maxWidth": "100%"});
+        var popup_019630f4a2e243318e62af7706a4e4d7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a644a05acd594c2f8a44c63643b773b1 = $(`<div id="html_a644a05acd594c2f8a44c63643b773b1" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstate.jpg" width="256" height="156"><br>     Address: <strong>2201 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/03/22/chicago-firm-pays-31m-for-opportunity-zone-dev-site-for-apartments-in-edgewater/">Chicago-based Trilogy</a> bought the 1.6-acre Edge 22 opportunity zone in March with plans for a multifamily project.</strong></html>     </div>`)[0];
-            popup_2d69b0cb6ca6434a9dd7e2a01d2e1eec.setContent(html_a644a05acd594c2f8a44c63643b773b1);
+            var html_56f873a1c9e84799b7680b0848712227 = $(`<div id="html_56f873a1c9e84799b7680b0848712227" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstate.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2201 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/03/22/chicago-firm-pays-31m-for-opportunity-zone-dev-site-for-apartments-in-edgewater/">Chicago-based Trilogy</a> bought the 1.6-acre Edge 22 opportunity zone in March with plans for a multifamily project.</strong></html>     </div>`)[0];
+            popup_019630f4a2e243318e62af7706a4e4d7.setContent(html_56f873a1c9e84799b7680b0848712227);
         
 
-        marker_e74e2ba452fd474c909a356aed24912d.bindPopup(popup_2d69b0cb6ca6434a9dd7e2a01d2e1eec)
+        marker_62dd24fdd8bc4411aff9b10a6050f35b.bindPopup(popup_019630f4a2e243318e62af7706a4e4d7)
         ;
 
         
     
     
-            var marker_1439ca58f1be4790a71b6615add7e7e7 = L.marker(
+            var marker_fd95ab369abb41f28f7917a0f5864f5f = L.marker(
                 [25.8082787, -80.18911589999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_b65d0cc032784b6a80791ac8f3535726 = L.popup({"maxWidth": "100%"});
+        var popup_654f2b7493714cc691c2f3ab50d46195 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d638f2e2b6de4b76b3716248d7d037bb = $(`<div id="html_d638f2e2b6de4b76b3716248d7d037bb" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="BeitelGroupAimco.jpg" width="256" height="156"><br>     Address: <strong>3333 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Beitel Group, Aimco</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/03/14/aimco-teams-up-with-brooklyn-firm-to-develop-mixed-use-project-in-miamis-edgewater/">Beitel Group and Aimco</a> plan to build a 1.5 million-square-foot development with more than 600 apartments, retail and office space. The firms financed their plans with a $40.9 million loan from Northwind Group.</strong></html>     </div>`)[0];
-            popup_b65d0cc032784b6a80791ac8f3535726.setContent(html_d638f2e2b6de4b76b3716248d7d037bb);
+            var html_2af7b5b9ff304f5fa70fd64b8af71432 = $(`<div id="html_2af7b5b9ff304f5fa70fd64b8af71432" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="BeitelGroupAimco.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>3333 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Beitel Group, Aimco</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/03/14/aimco-teams-up-with-brooklyn-firm-to-develop-mixed-use-project-in-miamis-edgewater/">Beitel Group and Aimco</a> plan to build a 1.5 million-square-foot development with more than 600 apartments, retail and office space. The firms financed their plans with a $40.9 million loan from Northwind Group.</strong></html>     </div>`)[0];
+            popup_654f2b7493714cc691c2f3ab50d46195.setContent(html_2af7b5b9ff304f5fa70fd64b8af71432);
         
 
-        marker_1439ca58f1be4790a71b6615add7e7e7.bindPopup(popup_b65d0cc032784b6a80791ac8f3535726)
+        marker_fd95ab369abb41f28f7917a0f5864f5f.bindPopup(popup_654f2b7493714cc691c2f3ab50d46195)
         ;
 
         
     
     
-            var marker_d3385d5f9f9d41f781e7584c1cba4184 = L.marker(
+            var marker_0806960702a04f2493633e5ee14cbcf2 = L.marker(
                 [25.7978505, -80.1909907],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_1dd2b980b525470ca226803a2649812f = L.popup({"maxWidth": "100%"});
+        var popup_8c5537cf851147d9883b18d3ed2c1766 = L.popup({"maxWidth": "100%"});
 
         
-            var html_4b3a45c29770452cb2e667aeb9a00912 = $(`<div id="html_4b3a45c29770452cb2e667aeb9a00912" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="HeritageEquityPartners.jpg" width="256" height="156"><br>     Address: <strong>2140 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Heritage Equity Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/02/14/heritage-equity-buys-miami-redevelopment-site-amid-legal-battles-in-new-york/">Heritage plans to redevelop</a> the half-acre opportunity zone into Edgewood 22, an 18-story, 120-unit rental project designed by Miami architect Zyscovich</strong></html>     </div>`)[0];
-            popup_1dd2b980b525470ca226803a2649812f.setContent(html_4b3a45c29770452cb2e667aeb9a00912);
+            var html_58970e7f7a8d4a84beb3bfd630c9a4a2 = $(`<div id="html_58970e7f7a8d4a84beb3bfd630c9a4a2" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="HeritageEquityPartners.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2140 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Heritage Equity Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/02/14/heritage-equity-buys-miami-redevelopment-site-amid-legal-battles-in-new-york/">Heritage plans to redevelop</a> the half-acre opportunity zone into Edgewood 22, an 18-story, 120-unit rental project designed by Miami architect Zyscovich</strong></html>     </div>`)[0];
+            popup_8c5537cf851147d9883b18d3ed2c1766.setContent(html_58970e7f7a8d4a84beb3bfd630c9a4a2);
         
 
-        marker_d3385d5f9f9d41f781e7584c1cba4184.bindPopup(popup_1dd2b980b525470ca226803a2649812f)
+        marker_0806960702a04f2493633e5ee14cbcf2.bindPopup(popup_8c5537cf851147d9883b18d3ed2c1766)
         ;
 
         
     
     
-            var marker_13d2c05fbfcd46069cae1d6d6a0d9a71 = L.marker(
+            var marker_bd3c5bdc0faa46c89586d98d71f26032 = L.marker(
                 [25.8041743, -80.1855449],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_0b04552d95574c0093796eb692c03def = L.popup({"maxWidth": "100%"});
+        var popup_1104b18a930b4c9cb7fa4cc89d23c90f = L.popup({"maxWidth": "100%"});
 
         
-            var html_456e9a4a151e45f893d211dadf27fa1a = $(`<div id="html_456e9a4a151e45f893d211dadf27fa1a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="MichaelKonigAndCrew.jpg" width="256" height="156"><br>     Address: <strong>710 Northeast 29th Street</strong><br>     Developer(s): <strong><em>Michael Konig, Alex Posth, Kevin Venger, Louis Birdman</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/28/one-thousand-museum-developers-complete-waterfront-edgewater-assemblage-for-doppelganger-tower/">The developers — including some who built One Thousand Museum</a> — completed their assemblage for a waterfront condo tower called 729 Edge. Plans for the tower show it will be 649-feet all with 70 units.</strong></html>     </div>`)[0];
-            popup_0b04552d95574c0093796eb692c03def.setContent(html_456e9a4a151e45f893d211dadf27fa1a);
+            var html_ce88e89b372947cc98aff30db8f38ee9 = $(`<div id="html_ce88e89b372947cc98aff30db8f38ee9" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="MichaelKonigAndCrew.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>710 Northeast 29th Street</strong><br>     Developer(s): <strong><em>Michael Konig, Alex Posth, Kevin Venger, Louis Birdman</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/28/one-thousand-museum-developers-complete-waterfront-edgewater-assemblage-for-doppelganger-tower/">The developers — including some who built One Thousand Museum</a> — completed their assemblage for a waterfront condo tower called 729 Edge. Plans for the tower show it will be 649-feet all with 70 units.</strong></html>     </div>`)[0];
+            popup_1104b18a930b4c9cb7fa4cc89d23c90f.setContent(html_ce88e89b372947cc98aff30db8f38ee9);
         
 
-        marker_13d2c05fbfcd46069cae1d6d6a0d9a71.bindPopup(popup_0b04552d95574c0093796eb692c03def)
+        marker_bd3c5bdc0faa46c89586d98d71f26032.bindPopup(popup_1104b18a930b4c9cb7fa4cc89d23c90f)
         ;
 
         
     
     
-            var marker_e667a03f1cee44b8bb2e0feb85f527b6 = L.marker(
+            var marker_f10187046051461795fbd478b9d6c4e2 = L.marker(
                 [25.7956021, -80.1896642],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_9870e6e1b9f849f5ad25e6fa37f14a16 = L.popup({"maxWidth": "100%"});
+        var popup_ce4d9a1ffd6f4da299ed50efc8bdf5aa = L.popup({"maxWidth": "100%"});
 
         
-            var html_ce941b200af24389b84fa1b67cfed58f = $(`<div id="html_ce941b200af24389b84fa1b67cfed58f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="KushnerPTMpartners.jpg" width="256" height="156"><br>     Address: <strong>2000 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Kushner, PTM Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/18/kushner-partner-buy-missing-piece-of-edgewater-multifamily-dev-site/">Kushner and PTM Properties</a>, an opportunity zone-focused real estate development company in Miami, plan a three-tower development with 1,300 apartments. Valley National Bank and AIG Asset Management financed the project with a $127 million loan.</strong></html>     </div>`)[0];
-            popup_9870e6e1b9f849f5ad25e6fa37f14a16.setContent(html_ce941b200af24389b84fa1b67cfed58f);
+            var html_b76758d6c8084e8c8eeaab37be648587 = $(`<div id="html_b76758d6c8084e8c8eeaab37be648587" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="KushnerPTMpartners.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2000 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Kushner, PTM Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/18/kushner-partner-buy-missing-piece-of-edgewater-multifamily-dev-site/">Kushner and PTM Properties</a>, an opportunity zone-focused real estate development company in Miami, plan a three-tower development with 1,300 apartments. Valley National Bank and AIG Asset Management financed the project with a $127 million loan.</strong></html>     </div>`)[0];
+            popup_ce4d9a1ffd6f4da299ed50efc8bdf5aa.setContent(html_b76758d6c8084e8c8eeaab37be648587);
         
 
-        marker_e667a03f1cee44b8bb2e0feb85f527b6.bindPopup(popup_9870e6e1b9f849f5ad25e6fa37f14a16)
+        marker_f10187046051461795fbd478b9d6c4e2.bindPopup(popup_ce4d9a1ffd6f4da299ed50efc8bdf5aa)
         ;
 
         
     
     
-            var marker_eb3fc6bd78a2419393935bb615cbb44e = L.marker(
+            var marker_ff29cf798afd4b069d4f1f15d38a5f55 = L.marker(
                 [25.7951582, -80.1892833],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_0b7cae46804f4a5db5ae6ee9e027d5d3 = L.popup({"maxWidth": "100%"});
+        var popup_6f1b2cff011c43d2966ccd979b21fd82 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3f691620d01143aa8c39f5d450be2aef = $(`<div id="html_3f691620d01143aa8c39f5d450be2aef" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="KushnerPTMpartners.jpg" width="256" height="156"><br>     Address: <strong>1900 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Kushner, PTM Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/18/kushner-partner-buy-missing-piece-of-edgewater-multifamily-dev-site/">Kushner and PTM Properties</a>, an opportunity zone-focused real estate development company in Miami, plan a three-tower development with 1,300 apartments. Valley National Bank and AIG Asset Management financed the project with a $127 million loan.</strong></html>     </div>`)[0];
-            popup_0b7cae46804f4a5db5ae6ee9e027d5d3.setContent(html_3f691620d01143aa8c39f5d450be2aef);
+            var html_afff10f8dd1447dd929dd07aee3fd06f = $(`<div id="html_afff10f8dd1447dd929dd07aee3fd06f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="KushnerPTMpartners.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>1900 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Kushner, PTM Partners</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/18/kushner-partner-buy-missing-piece-of-edgewater-multifamily-dev-site/">Kushner and PTM Properties</a>, an opportunity zone-focused real estate development company in Miami, plan a three-tower development with 1,300 apartments. Valley National Bank and AIG Asset Management financed the project with a $127 million loan.</strong></html>     </div>`)[0];
+            popup_6f1b2cff011c43d2966ccd979b21fd82.setContent(html_afff10f8dd1447dd929dd07aee3fd06f);
         
 
-        marker_eb3fc6bd78a2419393935bb615cbb44e.bindPopup(popup_0b7cae46804f4a5db5ae6ee9e027d5d3)
+        marker_ff29cf798afd4b069d4f1f15d38a5f55.bindPopup(popup_6f1b2cff011c43d2966ccd979b21fd82)
         ;
 
         
     
     
-            var marker_bd79b93feb934525ad3c33e245c82c26 = L.marker(
+            var marker_6c7f38807aae4f048b357d0880925c89 = L.marker(
                 [25.7945655, -80.1895552],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_7734c5b60de34aaf8d8d3c45d587b976 = L.popup({"maxWidth": "100%"});
+        var popup_fdc3d5e330044eb18321ca877c83eb4d = L.popup({"maxWidth": "100%"});
 
         
-            var html_3492c60325714b7580ee51f506a29b0a = $(`<div id="html_3492c60325714b7580ee51f506a29b0a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SkylightRealEstate.jpg" width="256" height="156"><br>     Address: <strong>1836 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Skylight Real Estate Partners, Panther Capital Management, Arden Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/04/developers-pick-up-historic-church-dev-site-in-miamis-edgewater-for-20m/">Skylight Real Estate Partners and Panther Capital Management</a> formed a joint venture partnership with Arden Group to buy the nearly 1-acre opportunity zone. The developers plan to build a 40-story, 364-unit luxury apartment building. The existing church on the property, built in 1926, will be restored.</strong></html>     </div>`)[0];
-            popup_7734c5b60de34aaf8d8d3c45d587b976.setContent(html_3492c60325714b7580ee51f506a29b0a);
+            var html_55e4b2e46daa4aa5b66c3416063570d6 = $(`<div id="html_55e4b2e46daa4aa5b66c3416063570d6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SkylightRealEstate.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>1836 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Skylight Real Estate Partners, Panther Capital Management, Arden Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/01/04/developers-pick-up-historic-church-dev-site-in-miamis-edgewater-for-20m/">Skylight Real Estate Partners and Panther Capital Management</a> formed a joint venture partnership with Arden Group to buy the nearly 1-acre opportunity zone. The developers plan to build a 40-story, 364-unit luxury apartment building. The existing church on the property, built in 1926, will be restored.</strong></html>     </div>`)[0];
+            popup_fdc3d5e330044eb18321ca877c83eb4d.setContent(html_55e4b2e46daa4aa5b66c3416063570d6);
         
 
-        marker_bd79b93feb934525ad3c33e245c82c26.bindPopup(popup_7734c5b60de34aaf8d8d3c45d587b976)
+        marker_6c7f38807aae4f048b357d0880925c89.bindPopup(popup_fdc3d5e330044eb18321ca877c83eb4d)
         ;
 
         
     
     
-            var marker_27b63a0324e446d7836465e434919c27 = L.marker(
+            var marker_8d76780f6fd442a2b821211fdf56c946 = L.marker(
                 [25.8022469, -80.19118979999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_fc91b0b3ef194ba6962ae0ed74e1168e = L.popup({"maxWidth": "100%"});
+        var popup_d34956b41d6c4b4ebea444a96a3f09ec = L.popup({"maxWidth": "100%"});
 
         
-            var html_d2f553aad7ab4d14a3c1136b4e8004e8 = $(`<div id="html_d2f553aad7ab4d14a3c1136b4e8004e8" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>     Address: <strong>2634 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
-            popup_fc91b0b3ef194ba6962ae0ed74e1168e.setContent(html_d2f553aad7ab4d14a3c1136b4e8004e8);
+            var html_e37b0c1f13824f6295fa0fc9c83162d3 = $(`<div id="html_e37b0c1f13824f6295fa0fc9c83162d3" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2634 Northeast Second Avenue</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
+            popup_d34956b41d6c4b4ebea444a96a3f09ec.setContent(html_e37b0c1f13824f6295fa0fc9c83162d3);
         
 
-        marker_27b63a0324e446d7836465e434919c27.bindPopup(popup_fc91b0b3ef194ba6962ae0ed74e1168e)
+        marker_8d76780f6fd442a2b821211fdf56c946.bindPopup(popup_d34956b41d6c4b4ebea444a96a3f09ec)
         ;
 
         
     
     
-            var marker_054d6a5756434da1884554642ea620c9 = L.marker(
+            var marker_5fa4971781034288b965517717ba311b = L.marker(
                 [25.8025011, -80.1913969],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_be117e5f3d754627b9c83869d0dd681e = L.popup({"maxWidth": "100%"});
+        var popup_7d86a43a612642e3850d198ed4ac34fe = L.popup({"maxWidth": "100%"});
 
         
-            var html_dc076a409fdd40559e0522e2d09b604a = $(`<div id="html_dc076a409fdd40559e0522e2d09b604a" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>     Address: <strong>192 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
-            popup_be117e5f3d754627b9c83869d0dd681e.setContent(html_dc076a409fdd40559e0522e2d09b604a);
+            var html_28088661e8c34126852f3689f231973f = $(`<div id="html_28088661e8c34126852f3689f231973f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>192 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
+            popup_7d86a43a612642e3850d198ed4ac34fe.setContent(html_28088661e8c34126852f3689f231973f);
         
 
-        marker_054d6a5756434da1884554642ea620c9.bindPopup(popup_be117e5f3d754627b9c83869d0dd681e)
+        marker_5fa4971781034288b965517717ba311b.bindPopup(popup_7d86a43a612642e3850d198ed4ac34fe)
         ;
 
         
     
     
-            var marker_5f7db0dc6ae94e479d6d556751bedb7e = L.marker(
+            var marker_47587ed34e6b40da81ebd23762660997 = L.marker(
                 [25.8024992, -80.1915385],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_3b3dfbbb01574a689e9b184cb2904113 = L.popup({"maxWidth": "100%"});
+        var popup_e0613878367746b68e3b32aa5a380cf3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3b6aa17e1ab64c268ea5e523831087ac = $(`<div id="html_3b6aa17e1ab64c268ea5e523831087ac" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>     Address: <strong>186 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
-            popup_3b3dfbbb01574a689e9b184cb2904113.setContent(html_3b6aa17e1ab64c268ea5e523831087ac);
+            var html_8b9e7bd39c2e4bafab68bf660d5eb183 = $(`<div id="html_8b9e7bd39c2e4bafab68bf660d5eb183" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="TrilogyRealEstatex3.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>186 Northeast 27th Street</strong><br>     Developer(s): <strong><em>Trilogy Real Estate Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/12/29/chicago-firm-plans-apartments-commercial-complex-on-edgewater-oz-site/">Trilogy Real Estate</a> paid $9.8 million for three properties — 2634 Northeast Second Avenue, 192 Northeast 27th Street, 186 Northeast 27th Street — and has plans to build a mix of residential and commercial buildings.</strong></html>     </div>`)[0];
+            popup_e0613878367746b68e3b32aa5a380cf3.setContent(html_8b9e7bd39c2e4bafab68bf660d5eb183);
         
 
-        marker_5f7db0dc6ae94e479d6d556751bedb7e.bindPopup(popup_3b3dfbbb01574a689e9b184cb2904113)
+        marker_47587ed34e6b40da81ebd23762660997.bindPopup(popup_e0613878367746b68e3b32aa5a380cf3)
         ;
 
         
     
     
-            var marker_a08fe17ce3154c02bcf1ade10a712ed9 = L.marker(
+            var marker_06db968c0fef479486ceee5020b0b45f = L.marker(
                 [25.8041472, -80.18683089999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_17030a176cb6400198ba4232f2d93ef5 = L.popup({"maxWidth": "100%"});
+        var popup_12081b8fb65a4a57af7a2e2956f9cf0c = L.popup({"maxWidth": "100%"});
 
         
-            var html_1ea6b49891554bec8a42c950f8b5fb28 = $(`<div id="html_1ea6b49891554bec8a42c950f8b5fb28" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>     Address: <strong>480 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
-            popup_17030a176cb6400198ba4232f2d93ef5.setContent(html_1ea6b49891554bec8a42c950f8b5fb28);
+            var html_96567cbc30d54e6084cc8eea923bd57f = $(`<div id="html_96567cbc30d54e6084cc8eea923bd57f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>480 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
+            popup_12081b8fb65a4a57af7a2e2956f9cf0c.setContent(html_96567cbc30d54e6084cc8eea923bd57f);
         
 
-        marker_a08fe17ce3154c02bcf1ade10a712ed9.bindPopup(popup_17030a176cb6400198ba4232f2d93ef5)
+        marker_06db968c0fef479486ceee5020b0b45f.bindPopup(popup_12081b8fb65a4a57af7a2e2956f9cf0c)
         ;
 
         
     
     
-            var marker_72e51ff2906b4b0aac48faa8456d951d = L.marker(
+            var marker_08a55015b8e545c5bd874588b3f1a2b8 = L.marker(
                 [25.8042103, -80.18712],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_b0fcbf2f216949f991550bf03f8811d1 = L.popup({"maxWidth": "100%"});
+        var popup_96a0ed1f93254912b6323c01a5fb283d = L.popup({"maxWidth": "100%"});
 
         
-            var html_5886d6dbd0cc40858dcbd346d8861323 = $(`<div id="html_5886d6dbd0cc40858dcbd346d8861323" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>     Address: <strong>456 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
-            popup_b0fcbf2f216949f991550bf03f8811d1.setContent(html_5886d6dbd0cc40858dcbd346d8861323);
+            var html_e54dbf875e74413b99341d270f8a070c = $(`<div id="html_e54dbf875e74413b99341d270f8a070c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>456 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
+            popup_96a0ed1f93254912b6323c01a5fb283d.setContent(html_e54dbf875e74413b99341d270f8a070c);
         
 
-        marker_72e51ff2906b4b0aac48faa8456d951d.bindPopup(popup_b0fcbf2f216949f991550bf03f8811d1)
+        marker_08a55015b8e545c5bd874588b3f1a2b8.bindPopup(popup_96a0ed1f93254912b6323c01a5fb283d)
         ;
 
         
     
     
-            var marker_458a375a273d44ebb30ad9bb517d599d = L.marker(
+            var marker_2759523de314456bac29155f38672ad3 = L.marker(
                 [25.8016942, -80.1874081],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_de9d0d3b5f8e4260b9c3fd775cb155bc = L.popup({"maxWidth": "100%"});
+        var popup_d8d9a7fb39644c42b59cce9bcda29db8 = L.popup({"maxWidth": "100%"});
 
         
-            var html_84f4978e64d442d983ba91114f1d32b6 = $(`<div id="html_84f4978e64d442d983ba91114f1d32b6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>     Address: <strong>496 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
-            popup_de9d0d3b5f8e4260b9c3fd775cb155bc.setContent(html_84f4978e64d442d983ba91114f1d32b6);
+            var html_0667cb8c3a1f44b0b79b773e2aa506a6 = $(`<div id="html_0667cb8c3a1f44b0b79b773e2aa506a6" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="SBdevelopmentGroup.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>496 Northeast 29th Street</strong><br>     Developer(s): <strong><em>SB Development Group, Hazelton Capital Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/08/11/new-york-developers-buy-edgewater-assemblage-for-boutique-high-rise/">Two NYC development firms </a>have teamed up to redevelop three bayfront properties — 480 Northeast 29th Street, 456 Northeast 29th Street and 496 Northeast 29th Street. Architects Kobi Karp and Dieguez Fridman are collaborating on the project.</strong></html>     </div>`)[0];
+            popup_d8d9a7fb39644c42b59cce9bcda29db8.setContent(html_0667cb8c3a1f44b0b79b773e2aa506a6);
         
 
-        marker_458a375a273d44ebb30ad9bb517d599d.bindPopup(popup_de9d0d3b5f8e4260b9c3fd775cb155bc)
+        marker_2759523de314456bac29155f38672ad3.bindPopup(popup_d8d9a7fb39644c42b59cce9bcda29db8)
         ;
 
         
     
     
-            var marker_b09b4f57d8d64457bfad5f7429154d27 = L.marker(
+            var marker_fb69e76c685e400290e0ec7ec6a679e2 = L.marker(
                 [25.799626, -80.19247399999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_93d4bb6a5f0f4744be1b8f0f719cc5a3 = L.popup({"maxWidth": "100%"});
+        var popup_abb0eef3e3b24b28beb53e627dfc5b6a = L.popup({"maxWidth": "100%"});
 
         
-            var html_780502f7e4fe44b5b117e1dd5acd268c = $(`<div id="html_780502f7e4fe44b5b117e1dd5acd268c" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="OmniNewYork.png" width="256" height="156"><br>     Address: <strong>116 Northeast 24th Street</strong><br>     Developer(s): <strong><em>Omni New York</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/11/04/mlbs-mo-the-hit-dog-vaughn-scores-edgewater-dev-site-for-apartments/">Owned by former baseball</a> first baseman Mo "The Hit Dog" Vaughn, Omni New York plans to build a yet-to-be-determined number of market-rate apartments. Current zoning for the site allows for up to eight stories and 100 units</strong></html>     </div>`)[0];
-            popup_93d4bb6a5f0f4744be1b8f0f719cc5a3.setContent(html_780502f7e4fe44b5b117e1dd5acd268c);
+            var html_403db0b8e0f74e5399e0451c05ca6a01 = $(`<div id="html_403db0b8e0f74e5399e0451c05ca6a01" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="OmniNewYork.png" width="256" height="156"><br>______________________________________<br>     Address: <strong>116 Northeast 24th Street</strong><br>     Developer(s): <strong><em>Omni New York</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/11/04/mlbs-mo-the-hit-dog-vaughn-scores-edgewater-dev-site-for-apartments/">Owned by former baseball</a> first baseman Mo "The Hit Dog" Vaughn, Omni New York plans to build a yet-to-be-determined number of market-rate apartments. Current zoning for the site allows for up to eight stories and 100 units</strong></html>     </div>`)[0];
+            popup_abb0eef3e3b24b28beb53e627dfc5b6a.setContent(html_403db0b8e0f74e5399e0451c05ca6a01);
         
 
-        marker_b09b4f57d8d64457bfad5f7429154d27.bindPopup(popup_93d4bb6a5f0f4744be1b8f0f719cc5a3)
+        marker_fb69e76c685e400290e0ec7ec6a679e2.bindPopup(popup_abb0eef3e3b24b28beb53e627dfc5b6a)
         ;
 
         
     
     
-            var marker_5f2289b16f6a45d997807c1fbe62f167 = L.marker(
+            var marker_c92f1369750c42789cf6ea12382860ad = L.marker(
                 [25.7998073, -80.1855963],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_7a3cf786dbcf4e2b88369cd243bbf715 = L.popup({"maxWidth": "100%"});
+        var popup_852f9e12149843428ac137f452df670f = L.popup({"maxWidth": "100%"});
 
         
-            var html_755bb6c2b32e4896b3cb60211f06f81f = $(`<div id="html_755bb6c2b32e4896b3cb60211f06f81f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="MeloGroup.jpg" width="256" height="156"><br>     Address: <strong>711 Northeast 23rd Terrace</strong><br>     Developer(s): <strong><em>Melo Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/06/15/seeing-double-melo-joins-miami-condo-craze-with-two-tower-edgewater-project/">Designed by Bernardo Fort-Brescia of Arquitectonica</a>, the two-tower project will have 800 units between $750K and $12 million. Sales have launched.</strong></html>     </div>`)[0];
-            popup_7a3cf786dbcf4e2b88369cd243bbf715.setContent(html_755bb6c2b32e4896b3cb60211f06f81f);
+            var html_e46abe83e8914958ad408ab3579cf71f = $(`<div id="html_e46abe83e8914958ad408ab3579cf71f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="MeloGroup.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>711 Northeast 23rd Terrace</strong><br>     Developer(s): <strong><em>Melo Group</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/06/15/seeing-double-melo-joins-miami-condo-craze-with-two-tower-edgewater-project/">Designed by Bernardo Fort-Brescia of Arquitectonica</a>, the two-tower project will have 800 units between $750K and $12 million. Sales have launched.</strong></html>     </div>`)[0];
+            popup_852f9e12149843428ac137f452df670f.setContent(html_e46abe83e8914958ad408ab3579cf71f);
         
 
-        marker_5f2289b16f6a45d997807c1fbe62f167.bindPopup(popup_7a3cf786dbcf4e2b88369cd243bbf715)
+        marker_c92f1369750c42789cf6ea12382860ad.bindPopup(popup_852f9e12149843428ac137f452df670f)
         ;
 
         
     
     
-            var marker_3adb91d851ad4d86bdb705ba081735bb = L.marker(
+            var marker_f522c8c74a1b4d008f96b9afa9075358 = L.marker(
                 [25.8012028, -80.18894499999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_e351649a88494da184a3a33d5ae59f6a = L.popup({"maxWidth": "100%"});
+        var popup_0b5180c3c54845aaa6c6582ab37f4827 = L.popup({"maxWidth": "100%"});
 
         
-            var html_be7c32d1abbb4d2ea52fb3defd53fae0 = $(`<div id="html_be7c32d1abbb4d2ea52fb3defd53fae0" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="ArchCompanies.jpg" width="256" height="156"><br>     Address: <strong>2501 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Arch Companies, Infinity Real Estate</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/06/14/arch-infinity-jv-to-build-mixed-use-multifamily-tower-in-miamis-edgewater/">Arch Companies and Infinity Real Estate</a> plan a 250-unit, 20-plus-story building. Mimi's Cafe, a pop-up created by Arch and Michael Kaplan's New Wave Hospitality group, will open during the planning phase of the project.</strong></html>     </div>`)[0];
-            popup_e351649a88494da184a3a33d5ae59f6a.setContent(html_be7c32d1abbb4d2ea52fb3defd53fae0);
+            var html_2c4c0ad322914ff08d2f0f35182f10c1 = $(`<div id="html_2c4c0ad322914ff08d2f0f35182f10c1" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="ArchCompanies.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>2501 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Arch Companies, Infinity Real Estate</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2021/06/14/arch-infinity-jv-to-build-mixed-use-multifamily-tower-in-miamis-edgewater/">Arch Companies and Infinity Real Estate</a> plan a 250-unit, 20-plus-story building. Mimi's Cafe, a pop-up created by Arch and Michael Kaplan's New Wave Hospitality group, will open during the planning phase of the project.</strong></html>     </div>`)[0];
+            popup_0b5180c3c54845aaa6c6582ab37f4827.setContent(html_2c4c0ad322914ff08d2f0f35182f10c1);
         
 
-        marker_3adb91d851ad4d86bdb705ba081735bb.bindPopup(popup_e351649a88494da184a3a33d5ae59f6a)
+        marker_f522c8c74a1b4d008f96b9afa9075358.bindPopup(popup_0b5180c3c54845aaa6c6582ab37f4827)
         ;
 
         
     
     
-            var marker_12e391a43a6d495ebcd707d3e5c825cc = L.marker(
-                [25.8072166, -80.1902745],
+            var marker_99435061800f435c87330897e9dacb45 = L.marker(
+                [25.8090821, -80.18641679999999],
                 {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
+            ).addTo(map_1262eb344e6d457ba0cb53549b417e6a);
         
     
-        var popup_f603fcda4a0347b9930bba5f307309af = L.popup({"maxWidth": "100%"});
+        var popup_c24077269fe64ea09cfde2f6a6d65507 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0433ef32ad0c4e70a7b37988731b8995 = $(`<div id="html_0433ef32ad0c4e70a7b37988731b8995" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="urbanica.jpg" width="256" height="156"><br>     Address: <strong>237 Northeast 32nd Street</strong><br>     Developer(s): <strong><em>Urbanica Management</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2020/12/04/urbanica-completes-9m-assemblage-for-edgewater-hotel/">Urbanica expects</a> to complete the 250-key hotel by late 2022. It will include two floors of parking with 150 space, a rooftop pool and gym, a game room and a 4,000-square-foot Japanese restaurant. The developer paid $8.5 million to complete the assemblage.</strong></html>     </div>`)[0];
-            popup_f603fcda4a0347b9930bba5f307309af.setContent(html_0433ef32ad0c4e70a7b37988731b8995);
+            var html_f38547e7858c402f97467176fd36659f = $(`<div id="html_f38547e7858c402f97467176fd36659f" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="Aimco.jpg" width="256" height="156"><br>______________________________________<br>     Address: <strong>555 Northeast 34th Street</strong><br>     Developer(s): <strong><em>Aimco</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2022/05/26/aimco-plans-60-story-apartment-tower-on-waterfront-site-in-miamis-edgewater/">Denver-based Aimco</a> proposed a 28-story, 271-unit bayfront building at 555, 560, 600, 610, 620, 630 and 640 Northeast 34th Street</strong></html>     </div>`)[0];
+            popup_c24077269fe64ea09cfde2f6a6d65507.setContent(html_f38547e7858c402f97467176fd36659f);
         
 
-        marker_12e391a43a6d495ebcd707d3e5c825cc.bindPopup(popup_f603fcda4a0347b9930bba5f307309af)
+        marker_99435061800f435c87330897e9dacb45.bindPopup(popup_c24077269fe64ea09cfde2f6a6d65507)
         ;
 
         
     
     
-            var marker_b996792cb60d43159f67a9ba1fdd2b2c = L.marker(
-                [25.8072314, -80.1904924],
-                {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
-        
-    
-        var popup_7e9d2c03726b45feb728e1077e2ea568 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_d35f927b26914d14a120ab6eaf4ece37 = $(`<div id="html_d35f927b26914d14a120ab6eaf4ece37" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="urbanica.jpg" width="256" height="156"><br>     Address: <strong>229 Northeast 32nd Street</strong><br>     Developer(s): <strong><em>Urbanica Management</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2020/12/04/urbanica-completes-9m-assemblage-for-edgewater-hotel/">Urbanica expects</a> to complete the 250-key hotel by late 2022. It will include two floors of parking with 150 space, a rooftop pool and gym, a game room and a 4,000-square-foot Japanese restaurant. The developer paid $8.5 million to complete the assemblage.</strong></html>     </div>`)[0];
-            popup_7e9d2c03726b45feb728e1077e2ea568.setContent(html_d35f927b26914d14a120ab6eaf4ece37);
-        
-
-        marker_b996792cb60d43159f67a9ba1fdd2b2c.bindPopup(popup_7e9d2c03726b45feb728e1077e2ea568)
-        ;
-
-        
-    
-    
-            var marker_6bdcf7a0d3dd48e196e84383684bc666 = L.marker(
-                [25.8072574, -80.18976099999999],
-                {}
-            ).addTo(map_c7678dec629f451f9986272a53b1f690);
-        
-    
-        var popup_91f0648a5d2847099cb257d2445f381a = L.popup({"maxWidth": "100%"});
-
-        
-            var html_e90cb337cd894bb9b0516c7f11abcd6e = $(`<div id="html_e90cb337cd894bb9b0516c7f11abcd6e" style="width: 100.0%; height: 100.0%;"><!DOCTYPE html>     <html>     <img src="urbanica.jpg" width="256" height="156"><br>     Address: <strong>3200 Biscayne Boulevard</strong><br>     Developer(s): <strong><em>Urbanica Management</strong></em><br><br>     <strong><a href="https://therealdeal.com/miami/2020/12/04/urbanica-completes-9m-assemblage-for-edgewater-hotel/">Urbanica expects</a> to complete the 250-key hotel by late 2022. It will include two floors of parking with 150 space, a rooftop pool and gym, a game room and a 4,000-square-foot Japanese restaurant. The developer paid $8.5 million to complete the assemblage.</strong></html>     </div>`)[0];
-            popup_91f0648a5d2847099cb257d2445f381a.setContent(html_e90cb337cd894bb9b0516c7f11abcd6e);
-        
-
-        marker_6bdcf7a0d3dd48e196e84383684bc666.bindPopup(popup_91f0648a5d2847099cb257d2445f381a)
-        ;
-
-        
-    
-    
-            map_c7678dec629f451f9986272a53b1f690.fitBounds(
-                [25.801942, -80.18911696086957],
+            map_1262eb344e6d457ba0cb53549b417e6a.fitBounds(
+                [25.801525842857142, -80.18883709523809],
                 {"maxZoom": 15}
             );
         
